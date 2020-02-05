@@ -32,3 +32,29 @@ Shared Projects
 Kan gøre brug af #if i compileren og lave specifikt business logik til hver platform. 
 
 Umiddelbart vil jeg altid foretrække .NET Standard. Færre filer at vedligeholde osv. 
+
+Inspect 2 - code
+
+What is dependencies and packages?
+
+Afhængigheder og pakker - det kunne f.eks. være nuget pakker eller afhængighed til dit shared business logic layer.
+
+What is a Content Page?
+
+En content page er en CSharp klasse der viser et view. 
+
+What App.xaml.cs is used for?
+
+Det er viewmodelen til din App. Her bestemmer du hvad din app skal vise til at starte med ved brug af MainPage propertyen. 
+
+How can you change the startup page in app.xaml.cs?
+
+Man skal sætte MainPage propertyen.
+
+What is Stacklayout and how does it works?
+
+I et StackLayout bliver views placeret oven på hinanden. 
+
+What is a Label and what is it similar to in HTML?
+
+The er et stykke tekst og minder om en paragraph: `<p></p>`
